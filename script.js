@@ -10,10 +10,10 @@ document.addEventListener("DOMContentLoaded", function() {
             let hrefString = element.href;
 
             // get the section by its id using the string from the last step
-            let section = hrefString.split('.html')[1];
+            let section = hrefString.split('#')[1];
 
             // scroll to that section with .scrollIntoView()
-            document.querySelector(section).scrollIntoView({ 
+            document.querySelector("#" + section).scrollIntoView({ 
                 behavior: 'smooth' 
             });
 
