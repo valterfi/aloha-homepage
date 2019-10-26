@@ -157,30 +157,74 @@ nav {
 
 .first-category-container {
     flex-direction: row;
-    background-color: red;
-    height: 400px;
+    /* background-color: red; */
+    height: 1000px;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.first-category-item-1 {
+.category-item {
+    height: 250px;
     background-color: yellow;
-    height: 50%;
-    width: 50%;
 }
 
-.first-category-item-2 {
-    background-color: blue;
-    height: 50%;
-    width: 50%;
+.category-item p {
+    text-align: center;
+    position: relative;
+    top: 4.5rem;
+    font-size: 2rem;
 }
 
-.first-category-item-3 {
-    background-color: green;
-    height: 50%;
-    width: 50%;
+.category-item1 {
+    background-image: url(images/mens-category.jpg);
+    background-size: cover;
 }
+
+.category-item2 {
+    background-image: url(images/trends-category.jpg);
+    background-size: cover;
+}
+
+.category-item3 {
+    background-image: url(images/glasses-category.jpg);
+    background-size: cover;
+}
+
+.category-item4 {
+    background-image: url(images/sale-category.jpg);
+    background-size: cover;
+}
+
+.category-item5 {
+    background-image: url(images/bags-category.jpg);
+    background-size: cover;
+}
+
+.category-item6 {
+    background-image: url(images/womens-category.jpg);
+    background-size: cover;
+}
+
+
+/* .max-category-item {
+    width: 20%;
+}
+
+.min-category-item {
+    width: 15%;
+} */
+
+.max-category-item {
+    width: 100%;
+    height: 230px;
+}
+
+.min-category-item {
+    width: 49%;
+}
+
 
 /* --------- end categories --------- */
 
