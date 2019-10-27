@@ -335,6 +335,40 @@ nav {
     color: white;
 }
 
+.footer-first-column-container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.copyright-text {
+    margin: 2px;
+    font-size: 1.55rem;
+}
+
+.contact-text {
+    font-size: 1.55rem;
+}
+
+.footer-copyright-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.footer-address-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-text {
+    color: grey;
+    margin: 2px;
+    font-size: 1.6rem;
+}
+
 /* --------- end footer --------- */
 
 
