@@ -287,6 +287,25 @@ nav {
 
 /* --------- end updates --------- */
 
+/* --------- footer --------- */
+
+.footer-container {
+    background-color: #262424;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 574px;
+    margin-top: 1rem;
+}
+
+.footer-text {
+    color: white;
+}
+
+/* --------- end footer --------- */
+
 
 
 
