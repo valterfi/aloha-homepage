@@ -340,7 +340,18 @@ nav {
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+}
 
+@media screen and (min-width: 600px) {
+    .carousel-cell-container {
+        width: calc( ( 100% - 10px ) / 2);
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .carousel-cell-container {
+        width: calc( ( 100% - 30px ) / 4);
+    }
 }
 
 /* --------- end products --------- */

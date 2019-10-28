@@ -8,9 +8,9 @@
 </head>
 
 <body>
-    <script src="script.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 
     <header class="flex-container flex-header-container">
 
@@ -84,8 +84,7 @@
                 <p>Most-Loved <strong>Products</strong></p>
             </div>
 
-            <div class="carousel"
-                 data-flickity='{"wrapAround": true}'>
+            <div class="carousel" data-flickity='{"groupCells": true}'>
                 <div class="flex-container carousel-cell-container">
                     <img src="images/stretch-knit-dress.jpg"/>
                     <p class="product-type">dresses</p>
