@@ -94,6 +94,42 @@ nav {
     margin-bottom: 0rem;
 }
 
+@media screen and (min-width: 600px) {
+    .flex-header-container {
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    .nav-item {
+        font-size: 1.3rem;
+        margin: 0.4rem;
+    }
+
+    .header-item-1 {
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .header-item-2 {
+        order: 3;
+        flex-grow: 0;
+    }
+    
+    .header-item-row {
+        display: none;
+    }
+    
+    .header-item-3 {
+        order: 2;
+    }
+
+    .cart-icon {
+        position: initial;
+        left: initial;
+    }
+}
+
 /* --------- end header css --------- */
 
 /* --------- first banner css css --------- */
@@ -103,7 +139,7 @@ nav {
 }
 
 .first-banner {
-    min-width: 580px;
+    min-width: 600px;
     width: 100%;
     height: 548px;
     background: url(images/flower-bkgd.jpg) repeat;
