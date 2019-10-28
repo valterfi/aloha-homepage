@@ -20,4 +20,8 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
+    /*if (window.matchMedia("(min-device-width: 480px)").matches {
+        // modify dom
+    }*/
+
 });    

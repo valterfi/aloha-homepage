@@ -231,20 +231,21 @@ nav {
 
 .products {
     width: 100%;
-    height: 1000px;
+    height: 800px;
 }
 
 .products-header-container {
     width: 100%;
     margin: 0px;
-    height: 200px;
-    justify-content: center;
+    height: 150px;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column;
 }
 
 .products-header-container p {
     font-size: 3.5rem;
+    margin: 0px;
 }
 
 .carousel {
@@ -253,13 +254,12 @@ nav {
   
 .carousel-cell-container {
     width: 100%;
-    height: 750px;
+    height: 600px;
     margin-right: 10px;
     border-radius: 5px;
-}
-
-.corousel-container {
-
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* --------- end products --------- */
