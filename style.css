@@ -262,6 +262,32 @@ nav {
     flex-direction: column;
 }
 
+.product-type {
+    text-transform: uppercase;
+    color: grey;
+}
+
+.product-name {
+    color: red;
+}
+
+.product-price {
+    color: grey;
+}
+
+.product-cart-btn {
+    margin-top: 16px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 105px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+
 /* --------- end products --------- */
 
 /* --------- updates --------- */
