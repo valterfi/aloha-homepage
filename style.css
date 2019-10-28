@@ -28,6 +28,10 @@ nav {
     text-align: center;
 }
 
+nav a {
+    text-decoration: unset;
+}
+
 .nav-item {
     color: red;
     font-size: 1.3rem;
@@ -142,7 +146,7 @@ nav {
     min-width: 600px;
     width: 100%;
     height: 548px;
-    background: url(images/flower-bkgd.jpg) repeat;
+    background: url(images/flower-bkgd.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -160,6 +164,13 @@ nav {
 .banner-girl {
     width: 207px;
     height: 506px;
+}
+
+@media screen and (min-width: 600px) {
+    .first-banner {
+        background: url(images/flower-bkgd.jpg) repeat;
+        background-size: contain;
+    }
 }
 
 /* --------- end banner css css --------- */
@@ -422,7 +433,7 @@ nav {
 .submit-email-container {
     flex-direction: row;
     background-color: white;
-    width: 90%;
+    width: 517px;
     height: 50px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -449,6 +460,12 @@ nav {
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+}
+
+@media screen and (min-width: 1240px) {
+    .updates {
+        background-size: 114% 260%;
+    }
 }
 
 /* --------- end updates --------- */
