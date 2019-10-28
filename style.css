@@ -339,6 +339,7 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 1rem;
 }
 
 .copyright-text {
@@ -367,6 +368,26 @@ nav {
     color: grey;
     margin: 2px;
     font-size: 1.6rem;
+}
+
+.footer-icon-social-network {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.footer-social-network {
+    color: white;
+    display: none;
+}
+
+/* .footer-social-network-item {
+    display: inline-block;
+} */
+
+ul#social-network-list li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 /* --------- end footer --------- */
