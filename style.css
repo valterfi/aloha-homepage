@@ -467,6 +467,12 @@ nav {
     font-size: 1.55rem;
 }
 
+.address-text {
+    color: grey;
+    margin: 2px;
+    font-size: 1.6rem;
+}
+
 .footer-copyright-container {
     flex-direction: column;
     justify-content: center;
@@ -480,12 +486,6 @@ nav {
     align-items: center;
 }
 
-.address-text {
-    color: grey;
-    margin: 2px;
-    font-size: 1.6rem;
-}
-
 .footer-icon-social-network {
     color: white;
     font-size: 1.2rem;
@@ -496,14 +496,69 @@ nav {
     display: none;
 }
 
-/* .footer-social-network-item {
-    display: inline-block;
-} */
-
 ul#social-network-list li {
     display: inline;
     margin-right: 20px;
     margin-left: 20px;
+}
+
+@media screen and (min-width: 600px) {
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .copyright-text {
+        font-size: 1.20rem;
+    }
+    
+    .contact-text {
+        font-size: 1.20rem;
+        margin: 0px;
+    }
+    
+    .address-text {
+        font-size: 1.25rem;
+    }
+
+    .footer-first-column-container {
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 65%;
+        position: relative;
+        left: 3%;
+    }
+
+    .footer-copyright-container {
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0px;
+    }
+
+    .footer-address-container {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .footer-social-network {
+        display: initial;
+        font-size: 1.2rem;
+    }
+
+    ul#social-network-list li {
+        display: block;
+        margin-right: initial;
+        margin-left: initial;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-social-item {
+        position: relative;
+        right: 3%;
+        bottom: 2%;
+    }
+
 }
 
 /* --------- end footer --------- */
