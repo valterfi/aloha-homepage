@@ -279,6 +279,25 @@ nav {
     }  
 }
 
+@media screen and (min-width: 1240px) {
+    .category-container {
+        height: 600px;
+    }
+
+    .category-item p {
+        top: 7rem;
+        font-size: 2rem;
+    }
+
+    .category-item:nth-child(-n+3){
+        margin-bottom: 1rem;
+    }
+
+    .category-item {
+        height: 300px;
+    }
+}
+
 
 /* --------- end categories --------- */
 
