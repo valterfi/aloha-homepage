@@ -1,5 +1,13 @@
 $(document).ready(function() {
 
+    let countItems = 0;
+    $(".product-cart-btn").click(function(){
+        let cartIconItem = $("#cart-icon-item-id");
+        countItems++;
+        cartIconItem.text(countItems);
+        cartIconItem.addClass('cart-icon-item-show');
+    });
+
     $(".subscribe-btn").click(function(){
         let email = $(".input-email").val();
         if (email !== '') {
