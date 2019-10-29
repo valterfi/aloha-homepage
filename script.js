@@ -1,5 +1,19 @@
 $(document).ready(function() {
 
+    $(".subscribe-btn").click(function(){
+        let email = $(".input-email").val();
+        if (email !== '') {
+            if (validateEmail(email)) {
+                alert('Thanks for subscribing!')
+            } else {
+                alert('Invalid Email');
+            }
+        } else {
+            alert('Empty Email');
+        }
+    });
+    
+
     const navLinks = document.querySelectorAll('.nav-item');
 
     navLinks.forEach(function(element) {
@@ -20,4 +34,9 @@ $(document).ready(function() {
         });
     });
 
-});    
+});
+
+function validateEmail(email) {
+    let emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return emailRegex.test(String(email).toLowerCase());
+}
