@@ -326,18 +326,18 @@ nav a {
 /* --------- first message --------- */
 
 .first-message-container {
-    height: 340px;
+    height: 400px;
     width: 57%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* min-width: 574px; */
+    width: 100%;
 }
 
 .title-first-message {
     font-family: "Playfair Display", Arial, sans-serif;
     font-style: italic;
-    font-size: 3.5rem;
+    font-size: 3.0rem;
     margin-bottom: 3rem;
 }
 
