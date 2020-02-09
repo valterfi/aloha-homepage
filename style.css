@@ -328,7 +328,7 @@ nav a {
 /* --------- first message --------- */
 
 .first-message-container {
-    height: 400px;
+    height: 440px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -502,7 +502,7 @@ nav a {
 }
 
 .products-header-container p {
-    font-size: 2.6rem;
+    font-size: 2.35rem;
     margin: 0px;
 }
 
