@@ -381,6 +381,7 @@ nav a {
     color: white;
     font-weight: bold;
     text-shadow: grey 0 3px;
+    text-transform: uppercase;
 }
 
 .category-item1 {
@@ -515,7 +516,6 @@ nav a {
 }
 
 .product-cart-btn {
-    margin-top: 16px;
     background-color: black;
     color: white;
     height: 40px;
@@ -697,7 +697,7 @@ nav a {
     display: none;
 }
 
-ul#social-network-list li {
+.footer-social-item ul li {
     display: inline;
     margin-right: 20px;
     margin-left: 20px;
@@ -746,7 +746,7 @@ ul#social-network-list li {
         font-size: 1.2rem;
     }
 
-    ul#social-network-list li {
+    .footer-social-item ul li {
         display: block;
         margin-right: initial;
         margin-left: initial;
