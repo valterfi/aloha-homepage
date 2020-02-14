@@ -4,7 +4,7 @@ Homepage for the client the Aloha Apparel Co. using HTML and CSS. In addition to
 
 # External libs
 
-- It was incorporated an image slider using a JavaScript plugin for the featured product area using Flickity.
+It was incorporated an image slider using a JavaScript plugin for the featured product area using [Flickity].
 
 # Installation
 
